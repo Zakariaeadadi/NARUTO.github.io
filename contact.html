@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta thhp-equive="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background-color: #f7f3f7;
+        }
+        /* تخطيط الشريط العلوي (Navbar) */
+        .navbar {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            background-color: #23475f;
+            text-align: center;
+        }
+
+        .navbar li {
+            display: inline-block;
+        }
+
+        .navbar a {
+            display: block;
+            padding: 0 20px;
+            text-decoration: none;
+            text-transform: capitalize;
+            font-size: 18px;
+            color: #fff;
+            line-height: 50px;
+            transition-duration: .3s;
+        }
+
+        .navbar a:hover {
+            background-color: #00d1b1;
+        }
+
+        /* التخطيط المركزي للمحتوى */
+        div {
+            text-align: center;
+            padding: 100px 0;
+            margin: 0;
+        }
+
+        img {
+            height: 30px;
+        }
+
+        .icone {
+            display: flex;
+            justify-content: space-around; /* توزيع المسافات بالتساوي بين الأزرار */
+            align-items: center;
+            margin: 50px auto;
+            padding: 0;
+            width: 60%; /* جعل العرض نسبيًا */
+        }
+
+        .icone button {
+            background: none;
+            border: none;
+            cursor: pointer;
+        }
+
+        .icone img {
+            height: 50px;
+            padding: 10px;
+        }
+
+        /* تحسين الاستجابة على الشاشات الصغيرة */
+        @media (max-width: 768px) {
+            .icone {
+                flex-direction: column; /* تحويل الأيقونات إلى عمود بدلاً من صف */
+                width: 100%;
+            }
+
+            .icone button {
+                margin-bottom: 20px;
+            }
+
+            .navbar a {
+                font-size: 16px; /* تصغير حجم الخط */
+                padding: 0 10px; /* تقليل حشوة الروابط */
+            }
+
+            div {
+                padding: 50px 0; /* تقليل الحشو العلوي والسفلي */
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul class="navbar">
+            <li><a href="index.html">home</a></li>
+            <li><a href="qcm.html">qcm</a></li>
+            <li><a href="questions.html">questions</a></li>
+            <li><a href="#">contact</a></li>
+        </ul>
+    </nav>
+
+    <div>
+        ✉  <a href="#">zakariaeadadi@gmail.com</a>
+        <br><br>
+        📞 <a href="#">+212771812892</a>
+    </div>
+
+    <div class="icone">
+        <button>
+            <a href="https://www.facebook.com/profile.php?id=61552261734036&mibextid=ZbWKwL">
+                <img id="fac" src="interface-utilisateur.png" alt="Facebook">
+            </a>
+        </button>
+        <button>
+            <a href="https://www.instagram.com/zakariaeadadi01?igsh=MTA3ZnhqNDZybHFl">
+                <img id="ins" src="instagram.png" alt="Instagram">
+            </a>
+        </button>
+    </div>
+</body>
+</html>

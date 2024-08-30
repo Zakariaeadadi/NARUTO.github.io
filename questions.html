@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta thhp-equive="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>اختبار ما هي عينك؟</title>
+    <style>
+        body {
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+        .question {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+        }
+        .calculate-button {
+            background-color: #28a745;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 18px;
+            cursor: pointer;
+            border-radius: 8px;
+        }
+        .calculate-button:hover {
+            background-color: #218838;
+        }
+        .navbar{
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      background-color: #23475f;
+      text-align: center;
+    }
+    .navbar li{
+      display: inline-block;
+    }
+    .navbar a{
+      display: block;
+      padding: 0 20px;
+      text-decoration: none;
+      text-transform: capitalize;
+      font-size: 18px;
+      color: #fff;
+      line-height: 50px;
+      transition-duration: .3s;
+    }
+    .navbar a:hover{
+      background-color: #00d1b1;
+      }
+      #yx{
+      margin: 0;
+      padding: 0;
+      background-color: #1811df;
+      color: #000000;
+      direction: rtl;
+      text-align: right;
+      }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul class="navbar">
+            <li><a href="index.html">home</a></li>
+            <li><a href="qcm.html">qcm</a></li>
+            <li><a href="#">questions</a></li>
+            <li><a href="contact.html">contact</a></li>
+        </ul>
+      </nav>
+<div id="yx">
+    <h1>اختبار ما هي عينك؟</h1>
+
+    <!-- السؤال 1 -->
+    <div class="question">
+        <p>1. ما هو هدفك في الحياة؟</p>
+        <input type="radio" name="q1" value="شارينغان"> تحسين مهاراتي والبحث عن القوة<br>
+        <input type="radio" name="q1" value="بياكوغان"> حماية أصدقائي وعائلتي<br>
+        <input type="radio" name="q1" value="رينغان"> السعي لتحقيق السلام والعدالة<br>
+        <input type="radio" name="q1" value="جوغان"> استكشاف المجهول ومعرفة الأسرار<br>
+    </div>
+
+    <!-- السؤال 2 -->
+    <div class="question">
+        <p>2. ما هي أهم ميزة تريدها في قوتك البصرية؟</p>
+        <input type="radio" name="q2" value="شارينغان"> القدرة على قراءة أفكار الآخرين<br>
+        <input type="radio" name="q2" value="بياكوغان"> القدرة على رؤية نقاط الشاكرا<br>
+        <input type="radio" name="q2" value="رينغان"> القدرة على التحكم في الجاذبية والمكان<br>
+        <input type="radio" name="q2" value="جوغان"> القدرة على السفر بين الأبعاد<br>
+    </div>
+
+    <!-- السؤال 3 -->
+    <div class="question">
+        <p>3. ما هو أسلوبك في القتال؟</p>
+        <input type="radio" name="q3" value="شارينغان"> استراتيجية ومراوغة<br>
+        <input type="radio" name="q3" value="بياكوغان"> قتال قريب باستخدام التايجتسو<br>
+        <input type="radio" name="q3" value="رينغان"> استخدام النينجتسو والقوى الكبرى<br>
+        <input type="radio" name="q3" value="جوغان"> غير متوقع ويعتمد على الظروف<br>
+    </div>
+
+    <!-- السؤال 4 -->
+    <div class="question">
+        <p>4. كيف تتعامل مع أعدائك؟</p>
+        <input type="radio" name="q4" value="شارينغان"> مواجهتهم بشجاعة<br>
+        <input type="radio" name="q4" value="بياكوغان"> البحث عن نقاط ضعفهم<br>
+        <input type="radio" name="q4" value="رينغان"> محاولة تحويلهم إلى حلفاء<br>
+        <input type="radio" name="q4" value="جوغان"> تجنبهم حتى اللحظة المناسبة<br>
+    </div>
+
+    <!-- السؤال 5 -->
+    <div class="question">
+        <p>5. ما هو طموحك في عالم النينجا؟</p>
+        <input type="radio" name="q5" value="شارينغان"> أن أصبح الأقوى في القرية<br>
+        <input type="radio" name="q5" value="بياكوغان"> حماية أسرتي بأي ثمن<br>
+        <input type="radio" name="q5" value="رينغان"> توحيد العالم تحت راية واحدة<br>
+        <input type="radio" name="q5" value="جوغان"> اكتشاف أسرار الكون<br>
+    </div>
+
+    <!-- السؤال 6 -->
+    <div class="question">
+        <p>6. كيف تتعامل مع الأزمات؟</p>
+        <input type="radio" name="q6" value="شارينغان"> مواجهة الأزمة مباشرة<br>
+        <input type="radio" name="q6" value="بياكوغان"> تحليل الوضع قبل التحرك<br>
+        <input type="radio" name="q6" value="رينغان"> التفكير في جميع الحلول الممكنة<br>
+        <input type="radio" name="q6" value="جوغان"> التكيف بسرعة مع التغيرات<br>
+    </div>
+
+    <!-- السؤال 7 -->
+    <div class="question">
+        <p>7. ما هو أهم شيء بالنسبة لك؟</p>
+        <input type="radio" name="q7" value="شارينغان"> القوة والتأثير<br>
+        <input type="radio" name="q7" value="بياكوغان"> العائلة والأصدقاء<br>
+        <input type="radio" name="q7" value="رينغان"> العدالة والسلام<br>
+        <input type="radio" name="q7" value="جوغان"> المعرفة والاكتشاف<br>
+    </div>
+
+    <!-- السؤال 8 -->
+    <div class="question">
+        <p>8. كيف تصف نفسك؟</p>
+        <input type="radio" name="q8" value="شارينغان"> طموح واستراتيجي<br>
+        <input type="radio" name="q8" value="بياكوغان"> وفيّ ومخلص<br>
+        <input type="radio" name="q8" value="رينغان"> حكيم وعادل<br>
+        <input type="radio" name="q8" value="جوغان"> فضولي ومبدع<br>
+    </div>
+
+    <!-- السؤال 9 -->
+    <div class="question">
+        <p>9. ما هو أسلوبك في التعلم؟</p>
+        <input type="radio" name="q9" value="شارينغان"> التعلم من الأخطاء والتجارب<br>
+        <input type="radio" name="q9" value="بياكوغان"> التعلم من الآخرين والملاحظة<br>
+        <input type="radio" name="q9" value="رينغان"> البحث والدراسة المتعمقة<br>
+        <input type="radio" name="q9" value="جوغان"> الاستكشاف والتجربة المستمرة<br>
+    </div>
+
+    <!-- السؤال 10 -->
+    <div class="question">
+        <p>10. كيف تتعامل مع النجاح؟</p>
+        <input type="radio" name="q10" value="شارينغان"> الاستمرار في السعي لتحقيق المزيد<br>
+        <input type="radio" name="q10" value="بياكوغان"> مشاركة النجاح مع الأحباء<br>
+        <input type="radio" name="q10" value="رينغان"> استخدام النجاح لتحقيق الخير<br>
+        <input type="radio" name="q10" value="جوغان"> تحليل ما تم تحقيقه والتفكير في الخطوات التالية<br>
+    </div>
+
+    <!-- زر حساب النتيجة -->
+    <button class="calculate-button" onclick="calculateResult()">احسب النتيجة</button>
+</div>
+    <script>
+        function calculateResult() {
+            var answers = {
+                "شارينغان": 0,
+                "بياكوغان": 0,
+                "رينغان": 0,
+                "جوغان": 0
+            };
+
+            // الحصول على جميع الإجابات المختارة
+            for (let i = 1; i <= 10; i++) {
+                var answer = document.querySelector('input[name="q' + i + '"]:checked');
+                if (answer) answers[answer.value]++;
+            }
+
+            // حساب النتيجة النهائية
+            var result = Object.keys(answers).reduce((a, b) => answers[a] > answers[b] ? a : b);
+
+            // فتح نافذة منبثقة جديدة لعرض النتيجة
+            var newWindow = window.open("", "_blank", "width=400,height=300");
+            newWindow.document.write("<h1>نتيجتك النهائية</h1>");
+            newWindow.document.write("<p>عينك هي: " + result + "</p>");
+            newWindow.document.write("<button onclick='window.close()'>إغلاق</button>");
+        }
+    </script>
+
+</body>
+</html>

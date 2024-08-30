@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a; /* لون الخلفية الأساسي */
+    color: #fff; /* لون النصوص */
+    background-image: url('fe.jpg'); /* مسار الصورة الخلفية */
+    background-size: cover; /* لتغطية كامل الخلفية */
+    background-position: center; /* لتوسيط الصورة */
+    background-repeat: no-repeat; /* منع تكرار الصورة */
+}
+
+/* يمكن إضافة قواعد إضافية إذا لزم الأمر */
+.navbar{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #23475f;
+    text-align: center;
+}
+.navbar li{
+    display: inline-block;
+}
+.navbar a{
+    display: block;
+    padding: 0 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 18px;
+    color: #fff;
+    line-height: 50px;
+    transition-duration: .3s;
+}
+.navbar a:hover{
+    background-color: #00d1b1;
+}
+#yeux{
+    text-align: center;
+    margin: 71px 0;
+}
+button{
+    margin: 2.5px 0;
+    padding: 15px 30px;
+    width: 200px;
+    border: 2px solid #8a3ad4;
+    transition: background-color 0.3s ease, color 0.3 ease;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    will-change: transform;
+}
+button:hover{
+    background-color: #00ff00;
+    color: #1a1a1a;
+    transform: scale(1.05);
+}
+button a:hover{
+    background-color: #8a3ad4;
+}
+#sh{
+    background-image: url('sharingan.jpg');
+    background-size: cover; /* لتغطية كامل الخلفية */
+    background-position: center;
+    color: #fe0703;
+}
+#ri{
+    background-image: url('rinnegan.jpg');
+    background-size: cover; /* لتغطية كامل الخلفية */
+    background-position: center;
+    color: #10fe03;
+}
+#ms{
+    background-image: url('ms.jpg');
+    background-size: cover; /* لتغطية كامل الخلفية */
+    background-position: center;
+    color: #082dfe;
+}
+#by{
+    background-image: url('by.jpg');
+    background-size: cover; /* لتغطية كامل الخلفية */
+    background-position: center;
+    color: #0d4f52;
+}
+#rs{
+    background-image: url('rs.jpg');
+    background-size: cover; /* لتغطية كامل الخلفية */
+    background-position: center;
+    color: #eefe08;
+}
+#ke{
+    background-image: url('ke.jpg');
+    background-size: cover; /* لتغطية كامل الخلفية */
+    background-position: center;
+    color: #fe3908;
+}
+#jo{
+    background-image: url('jo.jpg');
+    background-size: cover; /* لتغطية كامل الخلفية */
+    background-position: center;
+    color: #3908fe;
+}
